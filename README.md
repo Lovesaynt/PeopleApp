@@ -87,7 +87,7 @@ Ao abrir, ele criará automaticamente a pasta PessoaApp em Documents.
 PessoaApp/
 │
 ├── pplmanager.py          → Script principal
-├── arquivo.py             → Funções de CRUD e manipulação de arquivos
+├── arquivos               → Funções de CRUD e manipulação de arquivos
 └── pessoas.txt            → Criado automaticamente
 ```
 ## 🛠 Tecnologias Utilizadas
