@@ -1,12 +1,12 @@
-# PessoaApp — Gerenciador de Pessoas (CLI)
+# PeopleApp — Gerenciador de Pessoas (CLI)
 
-![status](https://img.shields.io/badge/status-active-brightgreen)
+![status](https://badgen.net/badge/status/inactive/red?)
 ![python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![license](https://img.shields.io/badge/license-MIT-green)
 ![platform](https://img.shields.io/badge/platform-Windows-lightgrey)
 ![build](https://img.shields.io/badge/build-PyInstaller-orange)
 
-PessoaApp é uma aplicação de linha de comando desenvolvida em Python para gerenciar um registro de pessoas usando um arquivo `.txt`.  
+PeopleApp é uma aplicação de linha de comando desenvolvida em Python para gerenciar um registro de pessoas usando um arquivo `.txt`.  
 O programa permite cadastrar, listar, editar, exibir e excluir pessoas de forma simples e eficiente, incluindo criação automática do arquivo e diretório necessários.
 
 ---
@@ -72,16 +72,6 @@ Se estiver usando o código-fonte, execute:
 python pplmanager.py
 ```
 
-## 📦 Como Gerar o Executável (PyInstaller)
-```bash
-pyinstaller --onefile --console --name PessoaApp pplmanager.py
-```
-Após gerar:
-```bash
-dist/PessoaApp.exe
-```
-Ao abrir, ele criará automaticamente a pasta PessoaApp em Documents.
-
 ## 📁 Estrutura do Projeto
 ```bash
 PessoaApp/
@@ -97,34 +87,8 @@ PessoaApp/
 ⦁	PyInstaller
 
 ⦁	Manipulação de arquivos TXT
+```
 
-⦁	Cores ANSI no terminal
-```
-## ⚙️ Como Usar o Programa
-
-### Menu
-```bash
-Digite o número da opção desejada.
-```
-### Cadastro
-```bash
-Digite todas as informações solicitadas.
-Campos inválidos são rejeitados automaticamente.
-```
-### Editar
-```bash
-Selecione um ID → escolha um campo → altere.
-Pressione ENTER para manter o valor atual.
-```
-### Excluir
-```bash
-Selecione um ID.
-Confirme com "S" para apagar.
-```
-### Exibir
-```bash
-Mostra todos os dados da pessoa selecionada.
-```
 ## 🔐 Tratamento de Erros
 
 ### Inclui:
