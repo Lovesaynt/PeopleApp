@@ -1,6 +1,6 @@
 # PeopleApp — Gerenciador de Pessoas (CLI)
 
-![status](https://badgen.net/badge/status/inactive/red?)
+![status](https://badgen.net/badge/status/active/green?)
 ![python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![license](https://img.shields.io/badge/license-MIT-green)
 ![platform](https://img.shields.io/badge/platform-Windows-lightgrey)
