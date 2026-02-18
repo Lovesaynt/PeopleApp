@@ -7,49 +7,10 @@
 ![build](https://img.shields.io/badge/build-PyInstaller-orange)
 
 PeopleApp é uma aplicação de linha de comando desenvolvida em Python para gerenciar um registro de pessoas usando um arquivo `.txt`.  
-O programa permite cadastrar, listar, editar, exibir e excluir pessoas de forma simples e eficiente, incluindo criação automática do arquivo e diretório necessários.
+O programa permite cadastrar, listar, editar, exibir e excluir pessoas de forma simples e eficiente, incluindo criação automática do arquivo.
 
----
-### **Menu Principal**
-```bash
-1 - Listar Pessoas
-2 - Cadastrar Pessoa
-3 - Editar Pessoa
-4 - Apagar Pessoa
-5 - Exibir Detalhes
-6 - Sair
-```
-
-### **Cadastro**
-```bash
-Nome: João Silva
-Idade: 28
-Sexo [M/F]: M
-Estado Civil: Solteiro
-Altura: 1.75
-Peso: 70
-Nacionalidade: Brasileira
-```
-
-### **Edição**
-
-Entrando em modo de edição.
-Para manter o valor atual, pressione ENTER.
-```bash
-1) Nome: João Silva
-2) Idade: 28
-3) Peso: 70.0
-(...)
-```
-### **Exclusão**
-```bash
-Você selecionou para apagar:
-Nome: João Silva
-Idade: 28
-(...)
-Confirmar Exclusão? (S/N):
-```
----
+## Um pequeno projeto feito no primórdio do meu aprendizado em Python!
+Sei que tem muitas imperfeições, porém irei manter assim como uma memória do meu começo.
 
 ## 🗂 Estrutura de Armazenamento
 
@@ -63,15 +24,6 @@ Formato de cada linha:
 Nome;Idade;Peso;Altura;Sexo;Estado Civil;Nacionalidade;
 ```
 ---
-
-## 🚀 Como Executar via Python
-
-Se estiver usando o código-fonte, execute:
-
-```bash
-python pplmanager.py
-```
-
 ## 📁 Estrutura do Projeto
 ```bash
 PessoaApp/
@@ -111,20 +63,6 @@ PessoaApp/
 ```bash
 Este projeto é distribuído sob a licença MIT.
 ```
-## 🤝 Contribuições
-```bash
-Relatórios de bugs, sugestões e pull requests são bem-vindos.
-```
-## 📜 Changelog
-v1.0.0
-```bash
-- Primeira versão estável
-- CRUD completo
-- Edição interativa
-- Criação automática de diretório e arquivo
-- Versão .exe funcional via PyInstaller
-```
-✨ Autor
 ```bash
 Developed_By = {
     Lovesaynt.
