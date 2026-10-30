@@ -1,71 +1,62 @@
-# PeopleApp — Gerenciador de Pessoas (CLI)
+# PeopleApp — CLI Person Manager
 
-![status](https://badgen.net/badge/status/active/green?)
+![status](https://badgen.net/badge/status/active/green)
 ![python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![license](https://img.shields.io/badge/license-MIT-green)
 ![platform](https://img.shields.io/badge/platform-Windows-lightgrey)
 ![build](https://img.shields.io/badge/build-PyInstaller-orange)
 
-PeopleApp é uma aplicação de linha de comando desenvolvida em Python para gerenciar um registro de pessoas usando um arquivo `.txt`.  
-O programa permite cadastrar, listar, editar, exibir e excluir pessoas de forma simples e eficiente, incluindo criação automática do arquivo.
+PeopleApp is a command-line application written in Python for managing a person registry using a `.txt` file. The program supports creating, listing, editing, viewing, and deleting records with automatic file and directory creation.
 
-## Um pequeno projeto feito no primórdio do meu aprendizado em Python!
-Sei que tem muitas imperfeições, porém irei manter assim como uma memória do meu começo.
+> **Note:** This is an early project from my Python learning journey. It contains imperfections that I've intentionally preserved as a record of my beginnings.
 
-## 🗂 Estrutura de Armazenamento
+## 🗂 Storage Structure
 
-O programa cria automaticamente:
+The program automatically creates the following structure:
+
 ```bash
-C:\Users<Usuário>\Documents\PessoaApp
+C:\Users\<User>\Documents\PessoaApp
 │
 └── pessoas.txt
-
-Formato de cada linha:
-Nome;Idade;Peso;Altura;Sexo;Estado Civil;Nacionalidade;
 ```
----
-## 📁 Estrutura do Projeto
+
+Line format:
+```
+Name;Age;Weight;Height;Gender;Marital Status;Nationality;
+```
+
+## 📁 Project Structure
+
 ```bash
 PessoaApp/
 │
-├── pplmanager.py          → Script principal
-├── arquivos               → Funções de CRUD e manipulação de arquivos
-└── pessoas.txt            → Criado automaticamente
-```
-## 🛠 Tecnologias Utilizadas
-```bash
-⦁	Python 3
-
-⦁	PyInstaller
-
-⦁	Manipulação de arquivos TXT
+├── pplmanager.py          # Main script
+├── arquivos/              # CRUD and file manipulation functions
+└── pessoas.txt            # Created automatically
 ```
 
-## 🔐 Tratamento de Erros
+## 🛠 Technologies Used
 
-### Inclui:
-```bash
-⦁	Digitação incorreta no menu
+- Python 3
+- PyInstaller
+- Text file manipulation
 
-⦁	Letras onde números deveriam estar
+## 🔐 Error Handling
 
-⦁	IDs fora do intervalo
+The application handles:
 
-⦁	Arquivo inexistente (criação automática)
+- Invalid menu selections
+- Non-numeric input where numbers are expected
+- Out-of-range record IDs
+- Missing files (auto-created)
+- Missing directories (auto-created)
+- Invalid numeric fields
+- Empty values preserve original data
 
-⦁	Diretório inexistente (criação automática)
+## 📄 License
 
-⦁	Campos numéricos inválidos
+This project is distributed under the MIT License.
 
-⦁	Valores vazios preservam o original
-```
-## 📄 Licença
-```bash
-Este projeto é distribuído sob a licença MIT.
-```
-```bash
-Developed_By = {
-    Lovesaynt.
-}
+---
 
-```
+**Developed by:** Lovesaynt
